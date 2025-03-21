@@ -1,6 +1,6 @@
 [build-system]
-build-backend = "Hatchling"
-requires = [ "Hatchling",]
+requires = ['hatchling', "hatch-vcs", 'hatch-fancy-pypi-readme>=22.5.0']
+build-backend = 'hatchling.build'
 
 [project]
 name = "pypencil"
